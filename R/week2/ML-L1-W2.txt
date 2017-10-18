@@ -1,0 +1,20 @@
+
+Run all these steps on train.csv and, at the end Use test.csv for validation
+
+1.Converting Categorical-to-Numerical
+  a. One-hot-encoding (dummies creation)
+  b. Label encoding
+
+2. Apply Principal Component Analysis
+  a. Standardize the values - normalization (mean=0,standard-deviation=1)
+      Mention other methods: min-max
+  b. Print variance and Cumulative variance explained by top 5 components
+  c. Find top variables based on the first principal component
+
+3. Train-test split for modeling
+
+4. Apply decision tree classifier
+  a. Print the decision tree
+  b. Evaluation metrics - Accuracy,Precision,recall,ROC
+
+
